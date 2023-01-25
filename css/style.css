@@ -18,7 +18,7 @@ header {
     background-color: #ff6900;
     position: fixed;
     width: 100%;
-    z-index: 2;
+    z-index: 3;
 }
 
 .nav {
@@ -44,6 +44,10 @@ header {
 
 .nav img {
     max-height: 60%;
+}
+
+main {
+    padding-bottom: 50px;
 }
 
 .card-inner {
@@ -124,4 +128,44 @@ header {
 
 .heart:hover {
     color: red;
+}
+
+footer {
+    background-color: #1a1a1a;
+    color: white;
+    height: 150px;
+}
+
+.footer-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+footer .footer-inner .footer-left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+footer .footer-inner .info {
+display: flex;
+gap: 10px;
+}
+
+footer .footer-inner .footer-right {
+    display: flex;
+    flex-direction: column;
+}
+
+footer .footer-inner .footer-right .social {
+    display: flex;
+    gap: 10px;
+}
+
+footer .footer-inner .footer-right .social img {
+    max-width: 20px;
+    max-height: 20px;
+    margin-top: 10px;
 }
