@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.style-center {
+    max-width: 1200px;
+    margin: auto auto;
+}
+
+header {
+    background-color: #ff6900;
+    position: fixed;
+    width: 100%;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    height: 50px;
+    align-items: center;
+}
+
+.gender {
+    color: white;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-size: ;
+}
+
+.link {
+    width: 70px;
+    height: 60%;
+}
+
+.nav img {
+    max-height: 60%;
+}
